@@ -10,6 +10,7 @@
 npm install --save yed-terminal
 ```
 ## Demo
+[Demo](https://yed-terminal.vercel.app/)
 
 
 
@@ -41,7 +42,7 @@ export default App
 
 #Preview
 
-
+<img src="https://raw.githubusercontent.com/yasinfmd/yed-terminal/master/terminal.png" width="600" height="200">
 
 ## License
 
