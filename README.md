@@ -12,6 +12,8 @@ npm install --save yed-terminal
 ## Demo
 
 
+
+
 ## Usage
 
 ```tsx
@@ -35,7 +37,10 @@ export default App
   terminalLogs | Terminal Content | array | true
   terminalHeight | Terminal Height| 400px | false
 
+
+
 #Preview
+
 
 
 ## License
