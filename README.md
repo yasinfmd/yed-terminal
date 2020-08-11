@@ -9,21 +9,34 @@
 ```bash
 npm install --save yed-terminal
 ```
+## Demo
+
 
 ## Usage
 
 ```tsx
-import React, { Component } from 'react'
-
-import MyComponent from 'yed-terminal'
+import React from 'react'
+import YedTerminal from "yed-terminal"
 import 'yed-terminal/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+import './app.css'
+const App = () => {
+  return <div className={"app"}>
+    <YedTerminal terminalLogs={[{label:'Merhaba'},{label: "Yasin Efem Dalkılıç"}]} />
+  </div>
 }
+
+export default App
+
 ```
+# Props
+ Props Name | Description | Default Value | Required
+ :---:  |  :----: | :---:| :---: |
+  terminalTitle | Terminal Header | null | false
+  terminalLogs | Terminal Content | array | true
+  terminalHeight | Terminal Height| 400px | false
+
+#Preview
+
 
 ## License
 

@@ -1,9 +1,125 @@
-/* add css module styles here (optional) */
-
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+.terminalWrapper{
+  display:flex;
+  background: #141410;
+  flex-direction: column;
+  box-sizing: border-box;
+  border-radius: 4px;
+  position: relative;
 }
+
+
+.yedTerminalWindow{
+  display: flex;
+}
+
+.yedTerminalWindow {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 10px;
+  border-bottom: 1px solid #141410;
+
+}
+.yedTerminalWindow i {
+  width: 1em;
+  height: 1em;
+  font-size: 10px;
+  border-radius: 50%;
+  margin-right: 4px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.yedTerminalWindow i svg{
+  width: 1em;
+  height: 1em;
+}
+.yedTerminalWindow p {
+  margin-right: auto;
+  font: normal 500 12px "-apple-system",system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;;
+  color: #d9d9d9;
+}
+.yedClose {
+  background: #f5222d;
+}
+.yedResize{
+  background: #ffc53d;
+}
+.yedMinimize{
+  background: #52c41a;
+}
+.yedTerminalBody{
+  display: flex;
+  width: 100%;
+  background:#262626;
+  color: #8ab4f8;
+  box-sizing: border-box;
+
+}
+.yedTerminal{
+  box-sizing: border-box;
+  padding: 12px;
+  overflow: hidden;
+  overflow-y: scroll;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+.yedTerminal p {
+  width: 100%;
+}
+
+.yedTerminal p {
+  font: normal 600 12px/16px "-apple-system",system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  animation: new 400ms 2;
+  animation-fill-mode: forwards;
+}
+
+.yedTerminalEnd{
+  background: currentColor;
+  width: 2px;
+  height: 16px;
+  margin-top: 6px;
+  animation: yedterminalAnimation 750ms infinite;
+  animation-timing-function: linear;
+}
+@keyframes yedterminalAnimation {
+  0% {
+    opacity: 0;
+  }
+}
+@keyframes yedterminalAnimation {
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes yedterminalAnimation {
+  100% {
+    opacity: 0;
+  }
+}
+
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #141410;
+  border-radius: 20px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background: #8c8c8c;
+}
+
+/* Handle on hover */
+
+

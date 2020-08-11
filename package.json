@@ -1,13 +1,14 @@
 {
   "name": "yed-terminal",
   "version": "1.0.0",
-  "description": "yed-terminal",
+  "description": "Terminal Window",
   "author": "yasinfmd",
   "license": "MIT",
   "repository": "yasinfmd/yed-terminal",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
+  "keywords": ["Javascript","React","ReactJS","yasinfmd","react-terminal","yed,terminal"],
   "engines": {
     "node": ">=10"
   },

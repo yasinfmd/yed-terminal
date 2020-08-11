@@ -1,10 +1,11 @@
 import React from 'react'
-
-import { ExampleComponent } from 'yed-terminal'
+import YedTerminal from "yed-terminal"
 import 'yed-terminal/dist/index.css'
-
+import './app.css'
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <div className={"app"}>
+    <YedTerminal terminalLogs={[{label:'Merhaba'},{label: "Yasin Efem Dalkılıç"}]} />
+  </div>
 }
 
 export default App

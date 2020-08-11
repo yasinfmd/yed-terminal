@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import YedTerminal from '.'
 
-describe('ExampleComponent', () => {
+describe('YedTerminal', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(YedTerminal).toBeTruthy()
   })
 })
