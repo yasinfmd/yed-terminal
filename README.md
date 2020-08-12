@@ -47,8 +47,6 @@ export default App
 
 <img src="https://raw.githubusercontent.com/yasinfmd/yed-terminal/master/terminal.png" width="600" height="200">
 
-#Preview Windows Terminal
-<img src="https://raw.githubusercontent.com/yasinfmd/yed-terminal/master/windowsterminal.png" width="600" height="200">
 
 
 ## License
