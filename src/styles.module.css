@@ -1,5 +1,5 @@
-.terminalWrapper{
-  display:flex;
+.terminalWrapper {
+  display: flex;
   background: #141410;
   flex-direction: column;
   box-sizing: border-box;
@@ -8,7 +8,7 @@
 }
 
 
-.yedTerminalWindow{
+.yedTerminalWindow {
   display: flex;
 }
 
@@ -21,6 +21,7 @@
   border-bottom: 1px solid #141410;
 
 }
+
 .yedTerminalWindow i {
   width: 1em;
   height: 1em;
@@ -32,33 +33,39 @@
   align-items: center;
   color: #fff;
 }
-.yedTerminalWindow i svg{
+
+.yedTerminalWindow i svg {
   width: 1em;
   height: 1em;
 }
+
 .yedTerminalWindow p {
   margin-right: auto;
-  font: normal 500 12px "-apple-system",system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;;
+  font: normal 500 12px "-apple-system", system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;;
   color: #d9d9d9;
 }
+
 .yedClose {
   background: #f5222d;
 }
-.yedResize{
+
+.yedResize {
   background: #ffc53d;
 }
-.yedMinimize{
+
+.yedMinimize {
   background: #52c41a;
 }
-.yedTerminalBody{
+
+.yedTerminalBody {
   display: flex;
   width: 100%;
-  background:#262626;
-  color: #8ab4f8;
+  background: #262626;
   box-sizing: border-box;
 
 }
-.yedTerminal{
+
+.yedTerminal {
   box-sizing: border-box;
   padding: 12px;
   overflow: hidden;
@@ -69,17 +76,18 @@
   align-items: flex-start;
   width: 100%;
 }
+
 .yedTerminal p {
   width: 100%;
 }
 
 .yedTerminal p {
-  font: normal 600 12px/16px "-apple-system",system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font: normal 600 12px/16px "-apple-system", system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   animation: new 400ms 2;
   animation-fill-mode: forwards;
 }
 
-.yedTerminalEnd{
+.yedTerminalEnd {
   background: currentColor;
   width: 2px;
   height: 16px;
@@ -87,16 +95,19 @@
   animation: yedterminalAnimation 750ms infinite;
   animation-timing-function: linear;
 }
+
 @keyframes yedterminalAnimation {
   0% {
     opacity: 0;
   }
 }
+
 @keyframes yedterminalAnimation {
   50% {
     opacity: 1;
   }
 }
+
 @keyframes yedterminalAnimation {
   100% {
     opacity: 0;
@@ -123,3 +134,87 @@
 /* Handle on hover */
 
 
+/*Windows*/
+.yedWindowsWrapper {
+  display: flex;
+  background: #141410;
+  flex-direction: column;
+  box-sizing: border-box;
+  border: 1px solid #8c8c8c;
+  position: relative;
+}
+
+.yedTerminalWindowsWindow {
+  height: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 6px;
+  border-bottom: 1px solid #141410;
+}
+
+.yedTerminalWindowsWindow p {
+  flex: 1;
+  font: normal 500 12px "-apple-system", system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;;
+  color: #d9d9d9;
+}
+
+.yedTerminalWindowIcons {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #141410;
+  color: #fff;
+}
+
+.yedTerminalWindowIcons svg {
+}
+
+.yedTerminalMinimize {
+  width: 46px;
+  margin-right: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.yedTerminalUppersize {
+  width: 46px;
+  margin-right: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.yedTerminalClose {
+  width: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.yedTerminalClose:hover {
+  background: red;
+
+}
+
+.yedTerminalUppersize:hover {
+  background: #8c8c8c;
+
+}
+
+.yedTerminalMinimize:hover {
+  background: #8c8c8c;
+
+}
+
+.yedWindowsIcon {
+  width: 46px;
+  height: 100%;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

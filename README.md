@@ -24,7 +24,7 @@ import 'yed-terminal/dist/index.css'
 import './app.css'
 const App = () => {
   return <div className={"app"}>
-    <YedTerminal terminalLogs={[{label:'Merhaba'},{label: "Yasin Efem Dalkılıç"}]} />
+    <YedTerminal terminalType={"Mac"} terminalLogs={[{label:'Merhaba'},{label: "Yasin Efem Dalkılıç"}]} />
   </div>
 }
 
@@ -37,12 +37,19 @@ export default App
   terminalTitle | Terminal Header | null | false
   terminalLogs | Terminal Content | array | true
   terminalHeight | Terminal Height| 400px | false
+  terminalType | Terminal Type| null | true (Mac or Windows)
+  terminalTextColor | Terminal Text Color | #8ab4f8 | false
 
 
 
-#Preview
+
+#Preview Mac Terminal
 
 <img src="https://raw.githubusercontent.com/yasinfmd/yed-terminal/master/terminal.png" width="600" height="200">
+
+#Preview Windows Terminal
+<img src="https://raw.githubusercontent.com/yasinfmd/yed-terminal/master/windowsterminal.png" width="600" height="200">
+
 
 ## License
 

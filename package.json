@@ -8,7 +8,14 @@
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
-  "keywords": ["Javascript","React","ReactJS","yasinfmd","react-terminal","yed,terminal"],
+  "keywords": [
+    "Javascript",
+    "React",
+    "ReactJS",
+    "yasinfmd",
+    "react-terminal",
+    "yed,terminal"
+  ],
   "engines": {
     "node": ">=10"
   },
